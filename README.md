@@ -1,4 +1,10 @@
 # Nimble-Script
+## Nimble Wallet erstellen
+
+
+
+
+
 
 ## Miner installation und Ausführung
 
