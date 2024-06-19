@@ -21,9 +21,10 @@ git clone https://github.com/nimble-technology/wallet-public.git
 cd wallet-public
 make install
 ```
-4. Erstelle eine Nimble Wallet. Wichtig: Du brauchst mindestens 2 Wallets, eine agiert als Masterwallet und die andere als Subwallet. Für das Minen verwendest du nur die Subwallet adressen.
+4. Erstelle eine Nimble Wallet
+**Wichtig: Du brauchst mindestens 2 Wallets, eine agiert als Masterwallet und die andere als Subwallet. Für das Minen verwendest du nur die Subwallet adressen.
 Welche die Subwallet ist und welche die Master, das entscheidest du im Discord. Doch zuerst erstellst du dir die Wallets, falls du keine haben solltest.
-Das entfernst du "<wallet_name>" und gibst stattdessen einen Namen Bsp. ./nimble-networkd keys add SubWallet1.
+Das entfernst du "<wallet_name>" und gibst stattdessen einen Namen Bsp. ./nimble-networkd keys add SubWallet1.**
 
 ```
 cd
@@ -32,6 +33,8 @@ cd go/bin
 ```
 
 **Die Anzeige speicherst du, denn wenn du die Daten verlieren solltest, dann verlierst du auch den Zugang zur Wallet**
+
+5.
 
 ## Miner installation und Ausführung
 
