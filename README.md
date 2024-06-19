@@ -2,9 +2,36 @@
 ## Nimble Wallet erstellen
 
 Zuvor musst du dir eine Wallet erstellen und deine Masterwallet mit den Subwallets im Discord von Nimble registrieren, wenn du das getan hast, dann kannst du den Miner installieren und ausführen.
+1. Installiere Go auf dem Server
+```
+sudo apt update
+wget https://go.dev/dl/go1.22.1.linux-amd64.tar.gz
+rm -rf /usr/local/go && tar -C /usr/local -xzf go1.22.1.linux-amd64.tar.gz
+export PATH=$PATH:/usr/local/go/bin
+```
+2. Überprüfe ob Go installiert ist
+```
+go version
+```
+3. Installiere Nimble's Wallet CLI
+```
+sudo apt install git
+mkdir $HOME/nimble && cd $HOME/nimble
+git clone https://github.com/nimble-technology/wallet-public.git
+cd wallet-public
+make install
+```
+4. Erstelle eine Nimble Wallet. Wichtig: Du brauchst mindestens 2 Wallets, eine agiert als Masterwallet und die andere als Subwallet. Für das Minen verwendest du nur die Subwallet adressen.
+Welche die Subwallet ist und welche die Master, das entscheidest du im Discord. Doch zuerst erstellst du dir die Wallets, falls du keine haben solltest.
+Das entfernst du "<wallet_name>" und gibst stattdessen einen Namen Bsp. ./nimble-networkd keys add SubWallet1.
 
+```
+cd
+cd go/bin
+./nimble-networkd keys add <wallet_name>
+```
 
-
+**Die Anzeige speicherst du, denn wenn du die Daten verlieren solltest, dann verlierst du auch den Zugang zur Wallet**
 
 ## Miner installation und Ausführung
 
