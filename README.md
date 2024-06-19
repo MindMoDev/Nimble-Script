@@ -1,6 +1,6 @@
 # Nimble-Script
 
-## Installation und Ausführung
+## Miner installation und Ausführung
 
 1. Führen Sie diese Befehle aus, um Git zu installieren und Ihr System zu aktualisieren
 ```
