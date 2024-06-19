@@ -35,7 +35,11 @@ cd go/bin
 
 **Die Anzeige speicherst du, denn wenn du die Daten verlieren solltest, dann verlierst du auch den Zugang zur Wallet**
 
-5.
+5. Tritt dem Nimble Discord Server bei
+
+Registrier nun deine Adressen.
+![image](https://github.com/MindMoDev/Nimble-Script/assets/159486944/06a86040-278c-4f45-bd44-a91d152d8f0f)
+
 
 ## Miner installation und Ausführung
 
