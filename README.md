@@ -1,7 +1,7 @@
 # Nimble-Script
 ## Nimble Wallet erstellen
 
-
+Zuvor musst du dir eine Wallet erstellen und deine Masterwallet mit den Subwallets im Discord von Nimble registrieren, wenn du das getan hast, dann kannst du den Miner installieren und ausführen.
 
 
 
