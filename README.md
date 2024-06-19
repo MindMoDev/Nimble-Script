@@ -38,6 +38,7 @@ cd go/bin
 5. Tritt dem Nimble Discord Server bei
 
 Registrier nun deine Adressen.
+
 ![image](https://github.com/MindMoDev/Nimble-Script/assets/159486944/06a86040-278c-4f45-bd44-a91d152d8f0f)
 
 
