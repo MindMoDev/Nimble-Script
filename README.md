@@ -1,4 +1,10 @@
 # Nimble-Script
+## Treiber & CUDA überprüfen
+1. Überprüfen, ob der NVIDIA-Treiber geladen ist
+```
+nvidia-smi
+```
+
 ## Nimble Wallet erstellen
 
 Zuvor musst du dir eine Wallet erstellen und deine Masterwallet mit den Subwallets im Discord von Nimble registrieren, wenn du das getan hast, dann kannst du den Miner installieren und ausführen.
