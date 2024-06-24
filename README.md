@@ -89,5 +89,5 @@ tmux new-session -d -s Nimble 'make run addr=xxx'
 ```
 9. Zeigen Sie die laufende tmux-Sitzung an, um den Mining-Prozess zu überwachen
 ```
-tmux attach
+sudo tmux attach
 ```
