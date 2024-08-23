@@ -3,6 +3,12 @@
 1. Überprüfen, ob der NVIDIA-Treiber geladen ist
 ```
 nvidia-smi
+
+ubuntu-drivers devices
+sudo apt install nvidia-driver-535
+sudo reboot
+nvidia-smi
+
 ```
 
 ## Nimble Wallet erstellen
